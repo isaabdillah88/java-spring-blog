@@ -16,19 +16,9 @@ import org.springframework.context.annotation.Bean;
 				title = "Spring Boot Blog App REST APIs",
 				description = "Spring Boot Blog App REST APIs Documentation",
 				version = "v1.0",
-				contact = @Contact(
-						name = "Ramesh",
-						email = "javaguides.net@gmail.com",
-						url = "https://www.javaguides.net"
-				),
-				license = @License(
-						name = "Apache 2.0",
-						url = "https://www.javaguides.net/license"
-				)
 		),
 		externalDocs = @ExternalDocumentation(
 				description = "Spring Boot Blog App Documentation",
-				url = "https://github.com/RameshMF/springboot-blog-rest-api"
 		)
 )
 public class SpringbootBlogRestApiApplication {
